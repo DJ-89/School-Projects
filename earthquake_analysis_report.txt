@@ -1,0 +1,35 @@
+Philippine Earthquake Analysis - Summary Report
+==================================================
+
+Total Earthquakes Analyzed: 113276
+Significant Earthquakes (Magnitude ≥ 4.0): 4617
+Percentage of Significant Earthquakes: 4.08%
+
+Top 10 Provinces with Most Significant Earthquakes:
+1. Davao Occidental: 1228 quakes
+2. Surigao Del Sur: 641 quakes
+3. Davao Oriental: 444 quakes
+4. Surigao Del Norte: 273 quakes
+5. Eastern Samar: 179 quakes
+6. Occidental Mindoro: 151 quakes
+7. Cagayan: 128 quakes
+8. Batanes: 126 quakes
+9. Batangas: 84 quakes
+10. Masbate: 75 quakes
+
+Top 5 Features for Predicting Significant Earthquakes:
+1. Latitude: 0.2086
+2. Region_Luzon: 0.1565
+3. Region_Mindanao: 0.1493
+4. Region_Visayas: 0.1239
+5. Longitude: 0.0974
+
+Earthquake Distribution by Region:
+Luzon: 33787 total quakes, 887 significant quakes, 2.63% significance rate
+Mindanao: 56137 total quakes, 3070 significant quakes, 5.47% significance rate
+Unknown: 1192 total quakes, 34 significant quakes, 2.85% significance rate
+Visayas: 22160 total quakes, 626 significant quakes, 2.82% significance rate
+
+Clustering Results:
+Number of clusters identified: 2
+Major seismic zones identified based on location patterns
