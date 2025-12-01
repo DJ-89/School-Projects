@@ -1,54 +1,84 @@
 ```
-# Compiled Python files
-*.pyc
-__pycache__/
-
-# Virtual environments
-venv/
-.venv/
-env/
-
 # Dependencies
-pip/
-pipenv/
-poetry/
+node_modules/
 
-# Logs
-*.log
-
-# Environment files
-.env
-.env.local
-*.env.*
-
-# Coverage reports
-.coverage
+# Build outputs
+dist/
+build/
 coverage/
 htmlcov/
 
-# Pytest cache
-.pytest_cache/
+# Environment
+.env
+.env.local
+.env.
 
-# MyPy cache
-.mypy_cache/
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
 
-# Distribution / packaging
-dist/
-build/
-*.egg-info/
+# TypeScript/JavaScript
+*.tsbuildinfo
+*.js.map
+*.mjs.map
+*.cjs.map
 
 # IDE
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# OS generated files
+# OS
 .DS_Store
 Thumbs.db
 
-# Temporary files
-*.tmp
-*.swp
+# Logs
+*.log
 
-# Local configuration (if any)
-config.local
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# nyc test coverage
+.nyc_output
+
+# Temporary folders
+tmp/
+temp/
+
+# System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Thumbs.db:encryptable
+[Uu]s[Ee]r[Mm][Aa][Rr][Kk][Ss]*
 ```
