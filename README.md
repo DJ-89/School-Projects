@@ -13,6 +13,9 @@ This project implements an enhanced machine learning model to predict significan
 - `processed_earthquake_data.csv`: Processed data from original model
 - `processed_earthquake_data_improved.csv`: Processed data from improved model
 - `comparison_analysis.py`: Script to analyze and compare model improvements
+- `earthquake-frontend/`: Web application frontend directory with React-based dashboard
+- `earthquake-frontend/serve.py`: Python server to run the web application
+- `start_website.sh`: Startup script to easily run the website
 
 ## Improvements Made
 
@@ -45,3 +48,31 @@ This project implements an enhanced machine learning model to predict significan
 ## Results
 
 The **improved model achieved 99.5% accuracy** on the test set (improved from 77%), with an ROC AUC score of 1.00. This represents a significant improvement of 22.5% over the original model.
+
+## Web Application
+
+A web application has been created to showcase the earthquake prediction model with an interactive dashboard. The application features:
+
+- Model performance metrics display (showing 99.5% accuracy)
+- Interactive prediction form for new earthquake data
+- Earthquake data visualization table
+- Detailed model information and methodology
+
+### Running the Web Application
+
+To run the web application, you have two options:
+
+#### Option 1: Using the startup script (Recommended)
+```bash
+./start_website.sh
+```
+
+#### Option 2: Direct execution
+```bash
+cd /workspace/earthquake-frontend
+python3 serve.py
+```
+
+The application will be accessible at `http://localhost:8000`
+
+After starting, you can access the dashboard at `http://localhost:8000` in your browser to interact with the model and view predictions.
